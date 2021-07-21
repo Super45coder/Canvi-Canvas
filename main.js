@@ -97,12 +97,12 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_touch_y;
     }
     
-    function clearArea(){
+    function clear_area(){
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
         console.log("Cleared");
     }
 
-    function fill(){
+    function fill_canvas(){
         ctx.fillStyle = color;
         ctx.fillRect(0,0, ctx.canvas.width, ctx.canvas.height);
         console.log("Filled");
